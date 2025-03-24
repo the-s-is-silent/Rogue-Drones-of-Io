@@ -1,17 +1,18 @@
 [
 	{
-		"name": "Air Command Station",
-		"cost": 0,
-		"maintenance": 0,
+		"name": "Sky Command Station",
+		"isNationalWonder": true,
+		"cost": 125,
 		"uniques": [
-			"Comment [Enables you to build Skyguardian units]",
+			"Comment [Enables construction of [Skyguardian] units [in this city]",
+			"[+15]% Production when constructing [Melee Hover] units [in all cities]",
+			"[+15]% Production when constructing [Ranged Hover] units [in all cities]",
 			"Consumes [1] [Power]",
 			"Provides [1] [Weight]",
 			"Costs [2] [Parts] <(modified by game speed)>",
-			"Unbuildable",
-			"Unsellable",
 			"Destroyed when the city is captured"
-		]
+		],
+		"requiredTech": "Low-Atmosphere Flight"
 	},
 	{
 		"name": "Data Haven",
@@ -48,5 +49,34 @@
 		"culture": 3,
 		"greatPersonPoints": {"Programming Unit": 1},
 		"requiredTech": "Fuzzy Logic"
+	},
+	{
+		"name": "Nucleonic Foundry",
+		"isNationalWonder": true,
+		"happiness": 8,
+		"cost": 125,
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Polymer Synthesizer] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Atomic Synthesis"
+	},
+	{
+		"name": "Recursive Displacement Protocol",
+		"isNationalWonder": true,
+		"cost": 125,
+		"uniques": [
+			"[-15]% enemy spy effectiveness [in all cities]",
+			"New spies start with [+1] level(s)",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"Only available <if [Quantum-Safe Protocol] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Costs [3] [Parts] <(modified by game speed)>",
+			"Provides [1] [Weight]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Quantum Computing"
 	}
 ]
