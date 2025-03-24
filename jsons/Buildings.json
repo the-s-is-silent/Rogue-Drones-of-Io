@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Air Command Station",
+		"cost": 0,
+		"maintenance": 0,
+		"uniques": [
+			"Comment [Enables you to build Skyguardian units]",
+			"Consumes [1] [Power]",
+			"Provides [1] [Weight]",
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"Unbuildable",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Data Haven",
+		"isNationalWonder": true,
+		"gold": 8,
+		"cost": 125,
+		"uniques": [
+			"[+2 Gold] from each Trade Route",
+			"Only available <if [Databank] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Provides [1] [Weight]",
+			"Costs [1] [Parts] <(modified by game speed)>"
+		],
+		"requiredTech": "Iterative Design"
+	},
+	{
+		"name": "Network Backbone",
+		"hurryCostModifier": 33,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Tester": 2},
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Provides [1] [Weight]",
+			"Costs [2] [Parts] <(modified by game speed)>"
+		],
+		"requiredBuilding": "Hardware Simulation Lab",
+		"requiredTech": "Neural Networks",
+		"maintenance": 2
+	},
+	{
+		"name": "AI Accords",
+		"isWonder": true,
+		"happiness": 10,
+		"culture": 3,
+		"greatPersonPoints": {"Programming Unit": 1},
+		"requiredTech": "Fuzzy Logic"
+	}
+]

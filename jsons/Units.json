@@ -5,17 +5,18 @@
 		"movement": 4,
 		"strength": 12,
 		"rangedStrength": 15,
-		"cost": 30,
+		"cost": 70,
 		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"uniques": [
-			"Unbuildable",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Gain a free [Air Command Station] [in this city] <by consuming this unit> <in [City center] tiles>",
+			"Can only be built <in cities with a [Air Command Station]>",
 			"Can move after attacking",
 			"Can only attack [Military] units",
 			"Consumes [1] [Aluminum]",
 			"May Paradrop up to [5] tiles from inside friendly territory",
-			"Costs [2] [Parts] <(modified by game speed)>",
-			"Never appears as a Barbarian unit"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	}
 ]
