@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": [
+			"[+33]% Strength <for [All] units>",
+			"[+10] HP when healing <within [3] tiles of a [Barbarian encampment]>",
+			"Excluded from map editor",
+			"When defeating a [Military] unit, earn [0] Gold and recruit it <with [33]% chance>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Robots sent to this inhospitable planet frequently malfunction, often causing them to prioritize their own survival over making profits for their company. Be warned, for these malfunctioning machines can spread their dysfunction to your units, causing you to lose control of your robots."
+			},
+			{
+				"text": "Rogue robot factory", "link":"Improvement/Barbarian encampment"
+			}
+		]
+	} 
+]

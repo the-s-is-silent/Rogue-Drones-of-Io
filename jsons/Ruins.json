@@ -1,0 +1,63 @@
+[
+	{
+		"name": "major programming update",
+		"notification": "The supply drop contained a major program update! (+[cultureAmount] culture)",
+		"uniques": ["Gain [50]-[100] [Culture] <(modified by game speed)>", "Only available <after turn number [30]>"],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "new program",
+		"notification": "The supply drop contained a brand new program to install!",
+		"uniques": ["Free Social Policy", "Only available <after turn number [75]>"],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "computing chip cache",
+		"notification": "Computing chips were contained in the supply drop, boosting research at our factories! (+[scienceAmount] science)",
+		"uniques": ["Gain [50]-[100] [Science] <(modified by game speed)>"],
+		"color": "#1e90ff"
+	},
+	{
+		"name": "data surge",
+		"notification": "Our unit has recovered an extensive amount of data from the supply drop! +[goldAmount] data",
+		"uniques": ["Gain [250]-[500] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "extensive combat logs",
+		"notification": "Our unit recovered an extensive set of combat logs from the supply drop!",
+		"uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [40]>"],
+		"color": "#20afe8"
+	},
+	{
+		"name": "fatal ambush",
+		"notification": "Our unit was lost to an ambush from rogue drones!",
+		"uniques": ["[This Unit] is destroyed"],
+		"color": "#20afe8"
+	},
+	{
+		"name": "military reinforcements",
+		"notification": "A [Skyguardian] has joined us!",
+		"uniques": ["Free [Skyguardian] appears"],
+		"color": "#20afe8"
+	},
+	{
+		"name": "advanced unit recovery",
+		"notification": "An advanced unit has been sent to join us!",
+		"uniques": ["Free Great Person", "Only available <after turn number [50]>"],
+		"color": "#e89220",
+		"excludedDifficulties": ["Immortal", "Deity"]
+	},
+	{
+		"name": "receive geographical intel",
+		"notification": "We have received data about nearby geography from the supply drop!",
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"],
+		"color": "#dcdcdc"
+	},
+	{
+		"name": "into era of greatness",
+		"notification": "Solving a potential problem has elevated our corporation to a new era of greatness!",
+		"uniques": ["Empire enters golden age", "Only available <after turn number [75]>"],
+		"color": "#cf8ff7"
+	}
+]

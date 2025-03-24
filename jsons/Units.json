@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Skyguardian",
+		"unitType": "Ranged Hover",
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 30,
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"uniques": [
+			"Unbuildable",
+			"Can move after attacking",
+			"Can only attack [Military] units",
+			"Consumes [1] [Aluminum]",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"Never appears as a Barbarian unit"
+		]
+	}
+]
