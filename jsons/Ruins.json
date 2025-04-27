@@ -30,12 +30,6 @@
 		"color": "#20afe8"
 	},
 	{
-		"name": "fatal ambush",
-		"notification": "Our unit was lost to an ambush from rogue drones!",
-		"uniques": ["[This Unit] is destroyed"],
-		"color": "#20afe8"
-	},
-	{
 		"name": "military reinforcements",
 		"notification": "A [Skyguardian] has joined us!",
 		"uniques": ["Free [Skyguardian] appears"],

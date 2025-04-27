@@ -4,12 +4,12 @@
 		"isNationalWonder": true,
 		"cost": 125,
 		"uniques": [
-			"Comment [Enables construction of [Skyguardian] units [in this city]",
+			"Comment [Enables construction of [Skyguardian] units [in this city]]",
 			"[+15]% Production when constructing [Melee Hover] units [in all cities]",
 			"[+15]% Production when constructing [Ranged Hover] units [in all cities]",
 			"Consumes [1] [Power]",
 			"Provides [1] [Weight]",
-			"Costs [2] [Parts] <(modified by game speed)>",
+			"Costs [3] [Parts] <(modified by game speed)>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Low-Atmosphere Flight"
@@ -24,7 +24,7 @@
 			"Only available <if [Databank] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [1] [Weight]",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		],
 		"requiredTech": "Iterative Design"
 	},
@@ -36,7 +36,7 @@
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Provides [1] [Weight]",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [4] [Parts] <(modified by game speed)>"
 		],
 		"requiredBuilding": "Hardware Simulation Lab",
 		"requiredTech": "Neural Networks",
@@ -58,7 +58,10 @@
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Polymer Synthesizer] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Consumes [1] [Power]",
+			"Provides [1] [Weight]",
+			"Costs [8] [Parts] <(modified by game speed)>"
 		],
 		"requiredTech": "Atomic Synthesis"
 	},
@@ -73,7 +76,7 @@
 			"Gain an extra spy",
 			"Only available <if [Quantum-Safe Protocol] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Costs [3] [Parts] <(modified by game speed)>",
+			"Costs [8] [Parts] <(modified by game speed)>",
 			"Provides [1] [Weight]",
 			"Consumes [1] [Power]"
 		],

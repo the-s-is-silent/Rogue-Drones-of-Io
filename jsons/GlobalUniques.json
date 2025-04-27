@@ -1,6 +1,11 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Notified of new Barbarian encampments"
+		"Rebel units may spawn <for [10] turns> <with [100]% chance> <upon declaring war with a major Civilization> <when below [0] Happiness>",
+		"Rebel units may spawn <when at war> <when below [0] Happiness>",
+		"Rebel units may spawn <for [5] turns> <with [100]% chance> <upon conquering a city>",
+		"Rebel units may spawn <for [5] turns> <upon founding a city> <when below [0] Happiness>",
+		"Rebel units may spawn <for [5] turns> <upon gaining a [Military] unit> <when below [-5] Happiness>",
+		"Rebel units may spawn <when below [-10] Happiness>"
 	]
 }

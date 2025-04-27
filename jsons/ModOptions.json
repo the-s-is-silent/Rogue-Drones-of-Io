@@ -1,6 +1,7 @@
 {
 	"isBaseRuleset": false,
 	"constants": {
-		"maxXPfromBarbarians": 100000
+		"maxXPfromBarbarians": 100000,
+		"ancientRuinCountMultiplier": 0.04
 	}
 }
